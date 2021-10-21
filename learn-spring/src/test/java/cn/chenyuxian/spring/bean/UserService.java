@@ -2,15 +2,15 @@ package cn.chenyuxian.spring.bean;
 
 import java.util.Random;
 
-import cn.chenyuxian.spring.beans.BeansException;
-import cn.chenyuxian.spring.beans.factory.BeanClassLoaderAware;
-import cn.chenyuxian.spring.beans.factory.BeanFactory;
-import cn.chenyuxian.spring.beans.factory.BeanFactoryAware;
-import cn.chenyuxian.spring.beans.factory.BeanNameAware;
-import cn.chenyuxian.spring.beans.factory.DisposableBean;
-import cn.chenyuxian.spring.beans.factory.InitializingBean;
-import cn.chenyuxian.spring.context.ApplicationContext;
-import cn.chenyuxian.spring.context.ApplicationContextAware;
+import learn.spring.beans.BeansException;
+import learn.spring.beans.factory.BeanClassLoaderAware;
+import learn.spring.beans.factory.BeanFactory;
+import learn.spring.beans.factory.BeanFactoryAware;
+import learn.spring.beans.factory.BeanNameAware;
+import learn.spring.beans.factory.DisposableBean;
+import learn.spring.beans.factory.InitializingBean;
+import learn.spring.context.ApplicationContext;
+import learn.spring.context.ApplicationContextAware;
 
 public class UserService implements InitializingBean, DisposableBean, BeanNameAware, BeanClassLoaderAware, ApplicationContextAware, BeanFactoryAware, IUserService{
 	

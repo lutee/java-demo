@@ -1,7 +1,7 @@
 package cn.chenyuxian.spring.event;
 
-import cn.chenyuxian.spring.context.ApplicationListener;
-import cn.chenyuxian.spring.context.event.ContextRefreshedEvent;
+import learn.spring.context.ApplicationListener;
+import learn.spring.context.event.ContextRefreshedEvent;
 
 public class ContextRefreshedEventListener implements ApplicationListener<ContextRefreshedEvent> {
 

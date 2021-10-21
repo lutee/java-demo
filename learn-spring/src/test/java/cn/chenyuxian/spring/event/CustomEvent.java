@@ -1,6 +1,6 @@
 package cn.chenyuxian.spring.event;
 
-import cn.chenyuxian.spring.context.event.ApplicationContextEvent;
+import learn.spring.context.event.ApplicationContextEvent;
 import lombok.Data;
 
 @Data

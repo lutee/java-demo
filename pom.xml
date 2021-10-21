@@ -8,21 +8,14 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>learn-spring</module>
-		<module>learn-file</module>
-		<module>learn-security</module>
+		<module>learn-rabbitmq</module>
 	</modules>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<spring-boot.version>2.3.7.RELEASE</spring-boot.version>
-		<fastjson.version>1.2.72</fastjson.version>
-		<hutool.version>5.7.2</hutool.version>
-		<mybatis-plus.version>3.4.2</mybatis-plus.version>
-		<tencentoss.version>5.6.45</tencentoss.version>
-		<minio.version>8.3.0</minio.version>
-		<jol-core.version>0.9</jol-core.version>
 	</properties>
 
 	<dependencyManagement>
@@ -35,48 +28,6 @@
 				<scope>import</scope>
 			</dependency>
 
-			<dependency>
-				<groupId>cn.hutool</groupId>
-				<artifactId>hutool-all</artifactId>
-				<version>${hutool.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.baomidou</groupId>
-				<artifactId>mybatis-plus-boot-starter</artifactId>
-				<version>${mybatis-plus.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.alibaba</groupId>
-				<artifactId>fastjson</artifactId>
-				<version>${fastjson.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.squareup.okhttp3</groupId>
-				<artifactId>okhttp</artifactId>
-				<version>4.8.1</version>
-				<scope>compile</scope>
-			</dependency>
-
-			<dependency>
-				<groupId>com.qcloud</groupId>
-				<artifactId>cos_api</artifactId>
-				<version>${tencentoss.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>io.minio</groupId>
-				<artifactId>minio</artifactId>
-				<version>${minio.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>org.openjdk.jol</groupId>
-				<artifactId>jol-core</artifactId>
-				<version>${jol-core.version}</version>
-			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -87,8 +38,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
 				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
+					<source>11</source>
+					<target>11</target>
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>

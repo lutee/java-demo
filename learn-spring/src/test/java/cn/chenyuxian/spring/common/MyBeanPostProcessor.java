@@ -1,8 +1,8 @@
 package cn.chenyuxian.spring.common;
 
 import cn.chenyuxian.spring.bean.UserService;
-import cn.chenyuxian.spring.beans.BeansException;
-import cn.chenyuxian.spring.beans.factory.config.BeanPostProcessor;
+import learn.spring.beans.BeansException;
+import learn.spring.beans.factory.config.BeanPostProcessor;
 
 public class MyBeanPostProcessor implements BeanPostProcessor{
 

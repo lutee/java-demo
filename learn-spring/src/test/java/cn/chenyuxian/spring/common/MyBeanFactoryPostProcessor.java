@@ -1,11 +1,11 @@
 package cn.chenyuxian.spring.common;
 
-import cn.chenyuxian.spring.beans.BeansException;
-import cn.chenyuxian.spring.beans.PropertyValue;
-import cn.chenyuxian.spring.beans.PropertyValues;
-import cn.chenyuxian.spring.beans.factory.ConfigurableListableBeanFactory;
-import cn.chenyuxian.spring.beans.factory.config.BeanDefinition;
-import cn.chenyuxian.spring.beans.factory.config.BeanFactoryPostProcessor;
+import learn.spring.beans.BeansException;
+import learn.spring.beans.PropertyValue;
+import learn.spring.beans.PropertyValues;
+import learn.spring.beans.factory.ConfigurableListableBeanFactory;
+import learn.spring.beans.factory.config.BeanDefinition;
+import learn.spring.beans.factory.config.BeanFactoryPostProcessor;
 
 public class MyBeanFactoryPostProcessor implements BeanFactoryPostProcessor{
 

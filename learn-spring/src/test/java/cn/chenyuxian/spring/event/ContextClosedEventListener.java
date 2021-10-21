@@ -1,7 +1,7 @@
 package cn.chenyuxian.spring.event;
 
-import cn.chenyuxian.spring.context.ApplicationListener;
-import cn.chenyuxian.spring.context.event.ContextCloseEvent;
+import learn.spring.context.ApplicationListener;
+import learn.spring.context.event.ContextCloseEvent;
 
 public class ContextClosedEventListener implements ApplicationListener<ContextCloseEvent> {
 

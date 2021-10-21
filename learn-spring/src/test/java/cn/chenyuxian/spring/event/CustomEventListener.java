@@ -2,7 +2,7 @@ package cn.chenyuxian.spring.event;
 
 import java.time.LocalDateTime;
 
-import cn.chenyuxian.spring.context.ApplicationListener;
+import learn.spring.context.ApplicationListener;
 
 public class CustomEventListener implements ApplicationListener<CustomEvent>{
 
